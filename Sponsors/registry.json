@@ -1,0 +1,495 @@
+{
+  "_readme": "Single source of truth for the sponsor registry. Blender/gen_sponsor_textures.py renders the textures, Python/ue_sponsors.py creates the UAPEXSponsorDataAsset assets from it. Real-brand entries are PRIVATE-PROTOTYPE TEXT MOCKUPS: plain wordmarks in a generic font, not the brands' logos or artwork, and no claim that any of these companies sponsors anything. They are shown only when unlicensed placeholders are allowed (development builds, or -APEXAllowPlaceholders); distribution builds (-APEXDistribution, or a Shipping build) substitute each entry's fictional FallbackId until written permission and official artwork are obtained.",
+  "sponsors": [
+    {
+      "id": "redbull",
+      "name": "Red Bull",
+      "text": "RED BULL",
+      "bg": [
+        0.04,
+        0.07,
+        0.22
+      ],
+      "fg": [
+        0.95,
+        0.8,
+        0.1
+      ],
+      "format": "LED",
+      "category": [
+        "Straight",
+        "Gantry",
+        "Building"
+      ],
+      "fade": 0.8,
+      "scroll": 0.0,
+      "emissive": 1.0,
+      "fallback": "voltage",
+      "license": "UnlicensedPlaceholder",
+      "source": "generated text mockup (not the brand's artwork)"
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "text": "ORACLE",
+      "bg": [
+        0.62,
+        0.05,
+        0.04
+      ],
+      "fg": [
+        0.97,
+        0.97,
+        0.97
+      ],
+      "format": "Static",
+      "category": [
+        "Straight",
+        "Barrier",
+        "Gantry"
+      ],
+      "fade": 0.6,
+      "scroll": 0.0,
+      "emissive": 0.9,
+      "fallback": "cirrus",
+      "license": "UnlicensedPlaceholder",
+      "source": "generated text mockup (not the brand's artwork)"
+    },
+    {
+      "id": "deloitte",
+      "name": "Deloitte",
+      "text": "DELOITTE",
+      "bg": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "fg": [
+        0.45,
+        0.85,
+        0.3
+      ],
+      "format": "Static",
+      "category": [
+        "Barrier",
+        "Pit",
+        "Grandstand"
+      ],
+      "fade": 0.6,
+      "scroll": 0.0,
+      "emissive": 0.9,
+      "fallback": "ledger",
+      "license": "UnlicensedPlaceholder",
+      "source": "generated text mockup (not the brand's artwork)"
+    },
+    {
+      "id": "adidas",
+      "name": "Adidas",
+      "text": "ADIDAS",
+      "bg": [
+        0.96,
+        0.96,
+        0.96
+      ],
+      "fg": [
+        0.03,
+        0.03,
+        0.03
+      ],
+      "format": "LED",
+      "category": [
+        "Straight",
+        "Building",
+        "Grandstand"
+      ],
+      "fade": 0.7,
+      "scroll": 0.0,
+      "emissive": 1.0,
+      "fallback": "strida",
+      "license": "UnlicensedPlaceholder",
+      "source": "generated text mockup (not the brand's artwork)"
+    },
+    {
+      "id": "nike",
+      "name": "Nike",
+      "text": "NIKE",
+      "bg": [
+        0.04,
+        0.04,
+        0.05
+      ],
+      "fg": [
+        0.98,
+        0.98,
+        0.98
+      ],
+      "format": "LED",
+      "category": [
+        "Straight",
+        "Building",
+        "Gantry"
+      ],
+      "fade": 0.7,
+      "scroll": 0.0,
+      "emissive": 1.0,
+      "fallback": "northfall",
+      "license": "UnlicensedPlaceholder",
+      "source": "generated text mockup (not the brand's artwork)"
+    },
+    {
+      "id": "puma",
+      "name": "Puma",
+      "text": "PUMA",
+      "bg": [
+        0.92,
+        0.88,
+        0.8
+      ],
+      "fg": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "format": "Static",
+      "category": [
+        "Barrier",
+        "Grandstand",
+        "Pit"
+      ],
+      "fade": 0.6,
+      "scroll": 0.0,
+      "emissive": 0.9,
+      "fallback": "pumice",
+      "license": "UnlicensedPlaceholder",
+      "source": "generated text mockup (not the brand's artwork)"
+    },
+    {
+      "id": "michelin",
+      "name": "Michelin",
+      "text": "MICHELIN",
+      "bg": [
+        0.05,
+        0.12,
+        0.32
+      ],
+      "fg": [
+        0.97,
+        0.88,
+        0.12
+      ],
+      "format": "Static",
+      "category": [
+        "Barrier",
+        "Pit",
+        "Gantry"
+      ],
+      "fade": 0.6,
+      "scroll": 0.0,
+      "emissive": 0.9,
+      "fallback": "tyrewright",
+      "license": "UnlicensedPlaceholder",
+      "source": "generated text mockup (not the brand's artwork)"
+    },
+    {
+      "id": "emirates",
+      "name": "Emirates",
+      "text": "EMIRATES",
+      "bg": [
+        0.55,
+        0.04,
+        0.06
+      ],
+      "fg": [
+        0.97,
+        0.95,
+        0.9
+      ],
+      "format": "LED",
+      "category": [
+        "Straight",
+        "Gantry",
+        "Grandstand"
+      ],
+      "fade": 0.8,
+      "scroll": 0.0,
+      "emissive": 1.0,
+      "fallback": "skyline",
+      "license": "UnlicensedPlaceholder",
+      "source": "generated text mockup (not the brand's artwork)"
+    },
+    {
+      "id": "voltage",
+      "name": "Voltage Energy",
+      "text": "VOLTAGE",
+      "bg": [
+        0.05,
+        0.08,
+        0.25
+      ],
+      "fg": [
+        1.0,
+        0.55,
+        0.05
+      ],
+      "format": "LED",
+      "category": [
+        "Straight",
+        "Gantry",
+        "Building"
+      ],
+      "fade": 0.8,
+      "scroll": 0.0,
+      "emissive": 1.0,
+      "fallback": "",
+      "license": "OriginalFictional",
+      "source": "original fictional brand created for this project"
+    },
+    {
+      "id": "cirrus",
+      "name": "Cirrus Systems",
+      "text": "CIRRUS",
+      "bg": [
+        0.1,
+        0.12,
+        0.16
+      ],
+      "fg": [
+        0.25,
+        0.8,
+        0.95
+      ],
+      "format": "Static",
+      "category": [
+        "Straight",
+        "Barrier",
+        "Gantry"
+      ],
+      "fade": 0.6,
+      "scroll": 0.0,
+      "emissive": 0.9,
+      "fallback": "",
+      "license": "OriginalFictional",
+      "source": "original fictional brand created for this project"
+    },
+    {
+      "id": "ledger",
+      "name": "Ledger & Hale",
+      "text": "LEDGER & HALE",
+      "bg": [
+        0.03,
+        0.1,
+        0.06
+      ],
+      "fg": [
+        0.9,
+        0.88,
+        0.7
+      ],
+      "format": "Static",
+      "category": [
+        "Barrier",
+        "Pit",
+        "Grandstand"
+      ],
+      "fade": 0.6,
+      "scroll": 0.0,
+      "emissive": 0.9,
+      "fallback": "",
+      "license": "OriginalFictional",
+      "source": "original fictional brand created for this project"
+    },
+    {
+      "id": "strida",
+      "name": "Strida Sportswear",
+      "text": "STRIDA",
+      "bg": [
+        0.93,
+        0.93,
+        0.95
+      ],
+      "fg": [
+        0.85,
+        0.1,
+        0.15
+      ],
+      "format": "LED",
+      "category": [
+        "Straight",
+        "Building",
+        "Grandstand"
+      ],
+      "fade": 0.7,
+      "scroll": 0.0,
+      "emissive": 1.0,
+      "fallback": "",
+      "license": "OriginalFictional",
+      "source": "original fictional brand created for this project"
+    },
+    {
+      "id": "northfall",
+      "name": "Northfall Athletic",
+      "text": "NORTHFALL",
+      "bg": [
+        0.06,
+        0.08,
+        0.1
+      ],
+      "fg": [
+        0.95,
+        0.95,
+        0.95
+      ],
+      "format": "LED",
+      "category": [
+        "Straight",
+        "Building",
+        "Gantry"
+      ],
+      "fade": 0.7,
+      "scroll": 0.0,
+      "emissive": 1.0,
+      "fallback": "",
+      "license": "OriginalFictional",
+      "source": "original fictional brand created for this project"
+    },
+    {
+      "id": "pumice",
+      "name": "Pumice Footwear",
+      "text": "PUMICE",
+      "bg": [
+        0.88,
+        0.82,
+        0.72
+      ],
+      "fg": [
+        0.12,
+        0.12,
+        0.14
+      ],
+      "format": "Static",
+      "category": [
+        "Barrier",
+        "Grandstand",
+        "Pit"
+      ],
+      "fade": 0.6,
+      "scroll": 0.0,
+      "emissive": 0.9,
+      "fallback": "",
+      "license": "OriginalFictional",
+      "source": "original fictional brand created for this project"
+    },
+    {
+      "id": "tyrewright",
+      "name": "Tyrewright",
+      "text": "TYREWRIGHT",
+      "bg": [
+        0.08,
+        0.14,
+        0.3
+      ],
+      "fg": [
+        0.95,
+        0.8,
+        0.15
+      ],
+      "format": "Static",
+      "category": [
+        "Barrier",
+        "Pit",
+        "Gantry"
+      ],
+      "fade": 0.6,
+      "scroll": 0.0,
+      "emissive": 0.9,
+      "fallback": "",
+      "license": "OriginalFictional",
+      "source": "original fictional brand created for this project"
+    },
+    {
+      "id": "skyline",
+      "name": "Skyline Airways",
+      "text": "SKYLINE",
+      "bg": [
+        0.45,
+        0.08,
+        0.12
+      ],
+      "fg": [
+        0.96,
+        0.94,
+        0.88
+      ],
+      "format": "LED",
+      "category": [
+        "Straight",
+        "Gantry",
+        "Grandstand"
+      ],
+      "fade": 0.8,
+      "scroll": 0.0,
+      "emissive": 1.0,
+      "fallback": "",
+      "license": "OriginalFictional",
+      "source": "original fictional brand created for this project"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "gp",
+      "text": "NEW YORK GRAND PRIX",
+      "bg": [
+        0.03,
+        0.04,
+        0.08
+      ],
+      "fg": [
+        1.0,
+        0.55,
+        0.08
+      ]
+    },
+    {
+      "id": "lights",
+      "text": "LIGHTS OUT",
+      "bg": [
+        0.04,
+        0.3,
+        0.08
+      ],
+      "fg": [
+        0.96,
+        0.98,
+        0.96
+      ]
+    },
+    {
+      "id": "pb",
+      "text": "PERSONAL BEST",
+      "bg": [
+        0.3,
+        0.06,
+        0.45
+      ],
+      "fg": [
+        0.98,
+        0.96,
+        1.0
+      ]
+    },
+    {
+      "id": "chequered",
+      "text": "CHEQUERED FLAG",
+      "bg": [
+        0.92,
+        0.92,
+        0.92
+      ],
+      "fg": [
+        0.04,
+        0.04,
+        0.04
+      ]
+    }
+  ]
+}

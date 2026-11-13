@@ -1,0 +1,18 @@
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Builds/
+*.xcworkspace
+*.xcodeproj
+.vs/
+# Never commit signing material
+*.p12
+*.mobileprovision
+*.cer
+*.key
+
+# third-party downloads (re-fetch with Python/fetch_assets.py)
+Blender/sources/
+Saved/
+Cinematics/render/

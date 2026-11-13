@@ -1,0 +1,361 @@
+{
+  "licence_checks": {
+    "ambientCG": true,
+    "PolyHaven": true
+  },
+  "assets": [
+    {
+      "id": "Asphalt031",
+      "use": "road surface (base layer)",
+      "source": "https://ambientcg.com/view?id=Asphalt031",
+      "licence": "CC0 1.0 (verified from docs.ambientcg.com/license)",
+      "resolution": "2K-JPG",
+      "status": "downloaded",
+      "download_url": "https://ambientcg.com/get?file=Asphalt031_2K-JPG.zip",
+      "files": [
+        "Asphalt031.png",
+        "Asphalt031_2K-JPG_AmbientOcclusion.jpg",
+        "Asphalt031_2K-JPG_Color.jpg",
+        "Asphalt031_2K-JPG_Displacement.jpg",
+        "Asphalt031_2K-JPG_NormalDX.jpg",
+        "Asphalt031_2K-JPG_NormalGL.jpg",
+        "Asphalt031_2K-JPG_Roughness.jpg"
+      ],
+      "tags": [
+        "31",
+        "asphalt",
+        "floor",
+        "grey",
+        "light",
+        "stone",
+        "street"
+      ]
+    },
+    {
+      "id": "Concrete034",
+      "use": "track barriers / walls",
+      "source": "https://ambientcg.com/view?id=Concrete034",
+      "licence": "CC0 1.0 (verified from docs.ambientcg.com/license)",
+      "resolution": "2K-JPG",
+      "status": "downloaded",
+      "download_url": "https://ambientcg.com/get?file=Concrete034_2K-JPG.zip",
+      "files": [
+        "Concrete034.png",
+        "Concrete034_2K-JPG_Color.jpg",
+        "Concrete034_2K-JPG_Displacement.jpg",
+        "Concrete034_2K-JPG_NormalDX.jpg",
+        "Concrete034_2K-JPG_NormalGL.jpg",
+        "Concrete034_2K-JPG_Roughness.jpg"
+      ],
+      "tags": [
+        "34",
+        "concrete",
+        "grey",
+        "light",
+        "plaster",
+        "smooth"
+      ]
+    },
+    {
+      "id": "Grass004",
+      "use": "trackside ground",
+      "source": "https://ambientcg.com/view?id=Grass004",
+      "licence": "CC0 1.0 (verified from docs.ambientcg.com/license)",
+      "resolution": "2K-JPG",
+      "status": "downloaded",
+      "download_url": "https://ambientcg.com/get?file=Grass004_2K-JPG.zip",
+      "files": [
+        "Grass004.png",
+        "Grass004_2K-JPG_AmbientOcclusion.jpg",
+        "Grass004_2K-JPG_Color.jpg",
+        "Grass004_2K-JPG_Displacement.jpg",
+        "Grass004_2K-JPG_NormalDX.jpg",
+        "Grass004_2K-JPG_NormalGL.jpg",
+        "Grass004_2K-JPG_Roughness.jpg"
+      ],
+      "tags": [
+        "004",
+        "4",
+        "dense",
+        "garden",
+        "grass",
+        "grass004",
+        "green",
+        "ground"
+      ]
+    },
+    {
+      "id": "Gravel040",
+      "use": "run-off areas and pit lane edges",
+      "source": "https://ambientcg.com/view?id=Gravel040",
+      "licence": "CC0 1.0 (verified from docs.ambientcg.com/license)",
+      "resolution": "2K-JPG",
+      "status": "downloaded",
+      "download_url": "https://ambientcg.com/get?file=Gravel040_2K-JPG.zip",
+      "files": [
+        "Gravel040.png",
+        "Gravel040_2K-JPG_AmbientOcclusion.jpg",
+        "Gravel040_2K-JPG_Color.jpg",
+        "Gravel040_2K-JPG_Displacement.jpg",
+        "Gravel040_2K-JPG_NormalDX.jpg",
+        "Gravel040_2K-JPG_NormalGL.jpg",
+        "Gravel040_2K-JPG_Roughness.jpg"
+      ],
+      "tags": [
+        "40",
+        "dirt",
+        "floor",
+        "gravel",
+        "gray",
+        "rocks",
+        "rocky",
+        "slate"
+      ]
+    },
+    {
+      "id": "PaintedPlaster017",
+      "use": "Mediterranean building walls",
+      "source": "https://ambientcg.com/view?id=PaintedPlaster017",
+      "licence": "CC0 1.0 (verified from docs.ambientcg.com/license)",
+      "resolution": "2K-JPG",
+      "status": "downloaded",
+      "download_url": "https://ambientcg.com/get?file=PaintedPlaster017_2K-JPG.zip",
+      "sha256": "a61330b10b1aa58410f8b60632f667e7a6d84d521bbd85cec4c4de7136d282d2",
+      "files": [
+        "PaintedPlaster017.png",
+        "PaintedPlaster017_2K-JPG_Color.jpg",
+        "PaintedPlaster017_2K-JPG_Displacement.jpg",
+        "PaintedPlaster017_2K-JPG_NormalDX.jpg",
+        "PaintedPlaster017_2K-JPG_NormalGL.jpg",
+        "PaintedPlaster017_2K-JPG_Roughness.jpg"
+      ],
+      "tags": [
+        "17",
+        "paint",
+        "painted",
+        "plaster",
+        "white"
+      ]
+    },
+    {
+      "id": "Bricks105",
+      "use": "apartment block facades",
+      "source": "https://ambientcg.com/view?id=Bricks105",
+      "licence": "CC0 1.0 (verified from docs.ambientcg.com/license)",
+      "resolution": "2K-JPG",
+      "status": "downloaded",
+      "download_url": "https://ambientcg.com/get?file=Bricks105_2K-JPG.zip",
+      "sha256": "15056e8914909386c38a5d8e9a90b42f6bfae2749d2543a7bb423ff0ecf78060",
+      "files": [
+        "Bricks105.png",
+        "Bricks105_2K-JPG_AmbientOcclusion.jpg",
+        "Bricks105_2K-JPG_Color.jpg",
+        "Bricks105_2K-JPG_Displacement.jpg",
+        "Bricks105_2K-JPG_NormalDX.jpg",
+        "Bricks105_2K-JPG_NormalGL.jpg",
+        "Bricks105_2K-JPG_Roughness.jpg"
+      ],
+      "tags": [
+        "105",
+        "beige",
+        "bricks",
+        "bricks105",
+        "rough",
+        "running",
+        "tan",
+        "urban"
+      ]
+    },
+    {
+      "id": "RoofingTiles013A",
+      "use": "terracotta roofs",
+      "source": "https://ambientcg.com/view?id=RoofingTiles013A",
+      "licence": "CC0 1.0 (verified from docs.ambientcg.com/license)",
+      "resolution": "2K-JPG",
+      "status": "downloaded",
+      "download_url": "https://ambientcg.com/get?file=RoofingTiles013A_2K-JPG.zip",
+      "sha256": "ca9e1f1d6075549728f68a57b64521482d6f1081968be1fa28dc095a46941d2d",
+      "files": [
+        "RoofingTiles013A.png",
+        "RoofingTiles013A_2K-JPG_AmbientOcclusion.jpg",
+        "RoofingTiles013A_2K-JPG_Color.jpg",
+        "RoofingTiles013A_2K-JPG_Displacement.jpg",
+        "RoofingTiles013A_2K-JPG_NormalDX.jpg",
+        "RoofingTiles013A_2K-JPG_NormalGL.jpg",
+        "RoofingTiles013A_2K-JPG_Opacity.jpg",
+        "RoofingTiles013A_2K-JPG_Roughness.jpg"
+      ],
+      "tags": [
+        "13",
+        "clay",
+        "roof",
+        "roofing",
+        "tiles",
+        "tiling"
+      ]
+    },
+    {
+      "id": "WoodSiding008",
+      "use": "alpine lodge cladding",
+      "source": "https://ambientcg.com/view?id=WoodSiding008",
+      "licence": "CC0 1.0 (verified from docs.ambientcg.com/license)",
+      "resolution": "2K-JPG",
+      "status": "downloaded",
+      "download_url": "https://ambientcg.com/get?file=WoodSiding008_2K-JPG.zip",
+      "sha256": "dad9a80714aa285c1667f01b1c9b0d254e4fac410e22f205d7dc1417d9cdbdfe",
+      "files": [
+        "WoodSiding008.png",
+        "WoodSiding008_2K-JPG_AmbientOcclusion.jpg",
+        "WoodSiding008_2K-JPG_Color.jpg",
+        "WoodSiding008_2K-JPG_Displacement.jpg",
+        "WoodSiding008_2K-JPG_Metalness.jpg",
+        "WoodSiding008_2K-JPG_NormalDX.jpg",
+        "WoodSiding008_2K-JPG_NormalGL.jpg",
+        "WoodSiding008_2K-JPG_Roughness.jpg"
+      ],
+      "tags": [
+        "8",
+        "dark",
+        "grunge",
+        "moss",
+        "nails",
+        "planks",
+        "siding",
+        "wall"
+      ]
+    },
+    {
+      "id": "Concrete036",
+      "use": "office block concrete",
+      "source": "https://ambientcg.com/view?id=Concrete036",
+      "licence": "CC0 1.0 (verified from docs.ambientcg.com/license)",
+      "resolution": "2K-JPG",
+      "status": "downloaded",
+      "download_url": "https://ambientcg.com/get?file=Concrete036_2K-JPG.zip",
+      "sha256": "231c1f965748db7ad9541f168393c638ba0e935feb3441f5c0edfb1d9cb12d8b",
+      "files": [
+        "Concrete036.png",
+        "Concrete036_2K-JPG_Color.jpg",
+        "Concrete036_2K-JPG_Displacement.jpg",
+        "Concrete036_2K-JPG_NormalDX.jpg",
+        "Concrete036_2K-JPG_NormalGL.jpg",
+        "Concrete036_2K-JPG_Roughness.jpg"
+      ],
+      "tags": [
+        "36",
+        "concrete",
+        "dark",
+        "grey",
+        "old",
+        "plaster",
+        "smooth"
+      ]
+    },
+    {
+      "id": "CorrugatedSteel009",
+      "use": "garage and utility roofs",
+      "source": "https://ambientcg.com/view?id=CorrugatedSteel009",
+      "licence": "CC0 1.0 (verified from docs.ambientcg.com/license)",
+      "resolution": "2K-JPG",
+      "status": "downloaded",
+      "download_url": "https://ambientcg.com/get?file=CorrugatedSteel009_2K-JPG.zip",
+      "sha256": "11d573412820d1ab17eb23c94af98bbd2b8abfce9e5c2cd63f1184eda320eed2",
+      "files": [
+        "CorrugatedSteel009.png",
+        "CorrugatedSteel009_2K-JPG_AmbientOcclusion.jpg",
+        "CorrugatedSteel009_2K-JPG_Color.jpg",
+        "CorrugatedSteel009_2K-JPG_Displacement.jpg",
+        "CorrugatedSteel009_2K-JPG_Metalness.jpg",
+        "CorrugatedSteel009_2K-JPG_NormalDX.jpg",
+        "CorrugatedSteel009_2K-JPG_NormalGL.jpg",
+        "CorrugatedSteel009_2K-JPG_Roughness.jpg"
+      ],
+      "tags": [
+        "009",
+        "9",
+        "corrugated",
+        "corrugatedsteel009",
+        "dark",
+        "gray",
+        "industrial",
+        "metal"
+      ]
+    },
+    {
+      "id": "jacaranda_tree",
+      "use": "broadleaf hero tree (flowering/ornamental)",
+      "source": "https://polyhaven.com/a/jacaranda_tree",
+      "licence": "CC0 (verified from polyhaven.com/license)",
+      "resolution": "2k",
+      "status": "downloaded",
+      "authors": [
+        "Rob Tuytel",
+        "Rico Cilliers"
+      ],
+      "polycount": 312356,
+      "files": [
+        "jacaranda_tree_2k.fbx",
+        "textures/jacaranda_tree_branches_diff_2k.png",
+        "textures/jacaranda_tree_branches_nor_gl_2k.png",
+        "textures/jacaranda_tree_branches_rough_2k.png",
+        "textures/jacaranda_tree_leaves_alpha_2k.png",
+        "textures/jacaranda_tree_leaves_diff_2k.png",
+        "textures/jacaranda_tree_leaves_nor_gl_2k.png",
+        "textures/jacaranda_tree_leaves_rough_2k.png",
+        "textures/jacaranda_tree_trunk_diff_2k.png",
+        "textures/jacaranda_tree_trunk_nor_gl_2k.png",
+        "textures/jacaranda_tree_trunk_rough_2k.png"
+      ]
+    },
+    {
+      "id": "pine_sapling_small",
+      "use": "pine",
+      "source": "https://polyhaven.com/a/pine_sapling_small",
+      "licence": "CC0 (verified from polyhaven.com/license)",
+      "resolution": "2k",
+      "status": "downloaded",
+      "authors": [
+        "Rob Tuytel",
+        "Rico Cilliers"
+      ],
+      "polycount": 398144,
+      "files": [
+        "pine_sapling_small_2k.fbx",
+        "textures/pine_sapling_small_bark_diff_2k.png",
+        "textures/pine_sapling_small_bark_disp_2k.png",
+        "textures/pine_sapling_small_bark_nor_gl_2k.png",
+        "textures/pine_sapling_small_bark_rough_2k.png",
+        "textures/pine_sapling_small_twig_alpha_2k.png",
+        "textures/pine_sapling_small_twig_diff_2k.png",
+        "textures/pine_sapling_small_twig_mask_2k.png",
+        "textures/pine_sapling_small_twig_nor_gl_2k.png",
+        "textures/pine_sapling_small_twig_rough_2k.png"
+      ]
+    },
+    {
+      "id": "fir_sapling",
+      "use": "alpine fir",
+      "source": "https://polyhaven.com/a/fir_sapling",
+      "licence": "CC0 (verified from polyhaven.com/license)",
+      "resolution": "2k",
+      "status": "downloaded",
+      "authors": [
+        "Rob Tuytel",
+        "Rico Cilliers"
+      ],
+      "polycount": 433021,
+      "files": [
+        "fir_sapling_2k.fbx",
+        "textures/fir_sapling_branches_diff_2k.png",
+        "textures/fir_sapling_branches_disp_2k.png",
+        "textures/fir_sapling_branches_nor_gl_2k.png",
+        "textures/fir_sapling_branches_rough_2k.png",
+        "textures/fir_sapling_twigs_alpha_2k.png",
+        "textures/fir_sapling_twigs_diff_2k.png",
+        "textures/fir_sapling_twigs_mask_2k.png",
+        "textures/fir_sapling_twigs_nor_gl_2k.png",
+        "textures/fir_sapling_twigs_rough_2k.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+ "fps": 60,
+ "duration": 120,
+ "frames": 7200,
+ "shots": [
+  {
+   "name": "S1_Aerial_Descent",
+   "start": 0,
+   "duration": 6,
+   "scene": 1,
+   "preset": "GoldenHour",
+   "camera": "aerial_descend",
+   "rank": 1,
+   "fov": 60,
+   "params": [
+    90000,
+    9000
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S1_Heli_ToCircuit",
+   "start": 6,
+   "duration": 4,
+   "scene": 1,
+   "preset": "GoldenHour",
+   "camera": "heli",
+   "rank": 1,
+   "fov": 40,
+   "params": [
+    2600,
+    3500
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S2_FrontWing_Macro",
+   "start": 10,
+   "duration": 2.5,
+   "scene": 2,
+   "preset": "SunnyRace",
+   "camera": "orbit",
+   "rank": 6,
+   "fov": 24,
+   "params": [
+    330,
+    60,
+    12,
+    0.0
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S2_Sidepod_Dolly",
+   "start": 12.5,
+   "duration": 2.5,
+   "scene": 2,
+   "preset": "SunnyRace",
+   "camera": "side_track",
+   "rank": 11,
+   "fov": 44,
+   "params": [
+    260,
+    90
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S2_Wheel_Detail",
+   "start": 15,
+   "duration": 2.5,
+   "scene": 2,
+   "preset": "SunnyRace",
+   "camera": "wheel",
+   "rank": 16,
+   "fov": 28,
+   "params": [
+    140,
+    35
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S2_Hero_Orbit",
+   "start": 17.5,
+   "duration": 2.5,
+   "scene": 2,
+   "preset": "SunnyRace",
+   "camera": "orbit",
+   "rank": 4,
+   "fov": 32,
+   "params": [
+    620,
+    130,
+    -14,
+    0.0
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S3_Grid_Crane",
+   "start": 20,
+   "duration": 3,
+   "scene": 3,
+   "preset": "SunnyRace",
+   "camera": "grid_crane",
+   "rank": 1,
+   "fov": 50,
+   "params": [
+    3500,
+    2200
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S3_Grid_Tracking",
+   "start": 23,
+   "duration": 2.5,
+   "scene": 3,
+   "preset": "SunnyRace",
+   "camera": "side_track",
+   "rank": 9,
+   "fov": 50,
+   "params": [
+    350,
+    110
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S3_Helmet_Closeup",
+   "start": 25.5,
+   "duration": 2.5,
+   "scene": 3,
+   "preset": "SunnyRace",
+   "camera": "helmet",
+   "rank": 14,
+   "fov": 22,
+   "params": [
+    190
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S3_StartLights",
+   "start": 28,
+   "duration": 2,
+   "scene": 3,
+   "preset": "SunnyRace",
+   "camera": "start_lights",
+   "rank": 1,
+   "fov": 36,
+   "params": [],
+   "overlay": false
+  },
+  {
+   "name": "S4_Launch_LowTrackside",
+   "start": 30,
+   "duration": 3.5,
+   "scene": 4,
+   "preset": "SunnyRace",
+   "camera": "tele",
+   "rank": 3,
+   "fov": 30,
+   "params": [
+    1800,
+    160,
+    0
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S4_Launch_WheelLevel",
+   "start": 33.5,
+   "duration": 2.5,
+   "scene": 4,
+   "preset": "SunnyRace",
+   "camera": "wheel",
+   "rank": 8,
+   "fov": 50,
+   "params": [
+    160,
+    30
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S4_Launch_Chase",
+   "start": 36,
+   "duration": 3,
+   "scene": 4,
+   "preset": "SunnyRace",
+   "camera": "chase",
+   "rank": 12,
+   "fov": 92,
+   "params": [
+    800,
+    170
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S4_Launch_Telephoto",
+   "start": 39,
+   "duration": 3,
+   "scene": 4,
+   "preset": "SunnyRace",
+   "camera": "tele",
+   "rank": 6,
+   "fov": 16,
+   "params": [
+    4500,
+    300,
+    0
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S5_Midtown_Tracking",
+   "start": 42,
+   "duration": 3.5,
+   "scene": 5,
+   "preset": "SunnyRace",
+   "camera": "side_track",
+   "rank": 5,
+   "fov": 52,
+   "params": [
+    520,
+    140
+   ],
+   "overlay": true
+  },
+  {
+   "name": "S5_Slipstream_Chase",
+   "start": 45.5,
+   "duration": 2.5,
+   "scene": 5,
+   "preset": "SunnyRace",
+   "camera": "chase",
+   "rank": 7,
+   "fov": 82,
+   "params": [
+    620,
+    150
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S5_Overtake_Telephoto",
+   "start": 48,
+   "duration": 3,
+   "scene": 5,
+   "preset": "SunnyRace",
+   "camera": "tele",
+   "rank": 4,
+   "fov": 18,
+   "params": [
+    3600,
+    260,
+    0
+   ],
+   "overlay": true
+  },
+  {
+   "name": "S5_SideBySide_Corner",
+   "start": 51,
+   "duration": 3,
+   "scene": 5,
+   "preset": "SunnyRace",
+   "camera": "heli",
+   "rank": 9,
+   "fov": 38,
+   "params": [
+    1400,
+    2000
+   ],
+   "overlay": true
+  },
+  {
+   "name": "S6_Cockpit",
+   "start": 54,
+   "duration": 3,
+   "scene": 6,
+   "preset": "SunnyRace",
+   "camera": "cockpit",
+   "rank": 3,
+   "fov": 95,
+   "params": [],
+   "overlay": true
+  },
+  {
+   "name": "S6_FrontWing_Look",
+   "start": 57,
+   "duration": 2.5,
+   "scene": 6,
+   "preset": "SunnyRace",
+   "camera": "front_wing",
+   "rank": 10,
+   "fov": 60,
+   "params": [
+    330,
+    50
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S6_Rear_Camera",
+   "start": 59.5,
+   "duration": 3,
+   "scene": 6,
+   "preset": "SunnyRace",
+   "camera": "rear_cam",
+   "rank": 6,
+   "fov": 87,
+   "params": [],
+   "overlay": false
+  },
+  {
+   "name": "S6_Chase_Low",
+   "start": 62.5,
+   "duration": 3.5,
+   "scene": 6,
+   "preset": "SunnyRace",
+   "camera": "chase",
+   "rank": 8,
+   "fov": 87,
+   "params": [
+    560,
+    120
+   ],
+   "overlay": true
+  },
+  {
+   "name": "S7_Canyon_LowAngle",
+   "start": 66,
+   "duration": 3.5,
+   "scene": 7,
+   "preset": "GoldenHour",
+   "camera": "tele",
+   "rank": 2,
+   "fov": 22,
+   "params": [
+    2600,
+    60,
+    0
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S7_Golden_Tracking",
+   "start": 69.5,
+   "duration": 3,
+   "scene": 7,
+   "preset": "GoldenHour",
+   "camera": "side_track",
+   "rank": 5,
+   "fov": 48,
+   "params": [
+    480,
+    100
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S7_Golden_Aerial",
+   "start": 72.5,
+   "duration": 3.5,
+   "scene": 7,
+   "preset": "GoldenHour",
+   "camera": "heli",
+   "rank": 3,
+   "fov": 36,
+   "params": [
+    3600,
+    4200
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S8_Rain_Tracking",
+   "start": 76,
+   "duration": 3.5,
+   "scene": 8,
+   "preset": "RainyRace",
+   "camera": "side_track",
+   "rank": 4,
+   "fov": 52,
+   "params": [
+    500,
+    120
+   ],
+   "overlay": true
+  },
+  {
+   "name": "S8_Rain_LowChase",
+   "start": 79.5,
+   "duration": 3,
+   "scene": 8,
+   "preset": "NightRace",
+   "camera": "chase",
+   "rank": 7,
+   "fov": 82,
+   "params": [
+    620,
+    110
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S8_Rain_TyreSpray",
+   "start": 82.5,
+   "duration": 2.5,
+   "scene": 8,
+   "preset": "NightRace",
+   "camera": "wheel",
+   "rank": 2,
+   "fov": 40,
+   "params": [
+    180,
+    25
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S8_Rain_BroadcastCorner",
+   "start": 85,
+   "duration": 3,
+   "scene": 8,
+   "preset": "NightRace",
+   "camera": "tele",
+   "rank": 6,
+   "fov": 16,
+   "params": [
+    3200,
+    500,
+    0
+   ],
+   "overlay": true
+  },
+  {
+   "name": "S9_Pit_Entry",
+   "start": 88,
+   "duration": 2.5,
+   "scene": 9,
+   "preset": "SunnyRace",
+   "camera": "pit_lane",
+   "rank": 1,
+   "fov": 45,
+   "params": [
+    2200,
+    170
+   ],
+   "overlay": true
+  },
+  {
+   "name": "S9_Pit_Overhead",
+   "start": 90.5,
+   "duration": 3,
+   "scene": 9,
+   "preset": "SunnyRace",
+   "camera": "pit_overhead",
+   "rank": 1,
+   "fov": 55,
+   "params": [
+    1800
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S9_Pit_WheelGunMacro",
+   "start": 93.5,
+   "duration": 2.5,
+   "scene": 9,
+   "preset": "SunnyRace",
+   "camera": "pit_wheel",
+   "rank": 1,
+   "fov": 32,
+   "params": [
+    260,
+    80
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S9_Pit_Side",
+   "start": 96,
+   "duration": 2.5,
+   "scene": 9,
+   "preset": "SunnyRace",
+   "camera": "pit_side",
+   "rank": 1,
+   "fov": 40,
+   "params": [
+    900,
+    130
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S9_Pit_Release",
+   "start": 98.5,
+   "duration": 1.5,
+   "scene": 9,
+   "preset": "SunnyRace",
+   "camera": "pit_lane",
+   "rank": 1,
+   "fov": 40,
+   "params": [
+    1600,
+    160
+   ],
+   "overlay": true
+  },
+  {
+   "name": "S10_Tele_Braking",
+   "start": 100,
+   "duration": 3,
+   "scene": 10,
+   "preset": "SunnyRace",
+   "camera": "tele",
+   "rank": 1,
+   "fov": 18,
+   "params": [
+    3800,
+    300,
+    0
+   ],
+   "overlay": true
+  },
+  {
+   "name": "S10_Chase_Lead",
+   "start": 103,
+   "duration": 3,
+   "scene": 10,
+   "preset": "SunnyRace",
+   "camera": "chase",
+   "rank": 1,
+   "fov": 82,
+   "params": [
+    650,
+    150
+   ],
+   "overlay": true
+  },
+  {
+   "name": "S10_Cockpit_Defend",
+   "start": 106,
+   "duration": 2.5,
+   "scene": 10,
+   "preset": "SunnyRace",
+   "camera": "cockpit",
+   "rank": 1,
+   "fov": 95,
+   "params": [],
+   "overlay": false
+  },
+  {
+   "name": "S10_Wheel_Level",
+   "start": 108.5,
+   "duration": 1.5,
+   "scene": 10,
+   "preset": "SunnyRace",
+   "camera": "wheel",
+   "rank": 2,
+   "fov": 50,
+   "params": [
+    150,
+    30
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S10_Finish_Broadcast",
+   "start": 110,
+   "duration": 2,
+   "scene": 10,
+   "preset": "SunnyRace",
+   "camera": "tele",
+   "rank": 1,
+   "fov": 18,
+   "params": [
+    2400,
+    350,
+    0
+   ],
+   "overlay": true
+  },
+  {
+   "name": "S11_Finish_Cross",
+   "start": 112,
+   "duration": 2.5,
+   "scene": 11,
+   "preset": "GoldenHour",
+   "camera": "tele",
+   "rank": 1,
+   "fov": 16,
+   "params": [
+    2600,
+    250,
+    0
+   ],
+   "overlay": true
+  },
+  {
+   "name": "S11_Helmet_Winner",
+   "start": 114.5,
+   "duration": 2.5,
+   "scene": 11,
+   "preset": "GoldenHour",
+   "camera": "helmet",
+   "rank": 1,
+   "fov": 24,
+   "params": [
+    210
+   ],
+   "overlay": false
+  },
+  {
+   "name": "S11_Hero_Orbit_Title",
+   "start": 117,
+   "duration": 3,
+   "scene": 11,
+   "preset": "GoldenHour",
+   "camera": "orbit",
+   "rank": 1,
+   "fov": 34,
+   "params": [
+    700,
+    150,
+    -12,
+    0.0
+   ],
+   "overlay": false
+  }
+ ]
+}
